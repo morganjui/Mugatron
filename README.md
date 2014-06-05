@@ -1,2 +1,3 @@
 Mugatron
-========
+
+The Arduino code is for controlling the MOSFET unit which controls the current to the heating element. The input is using a Thermister to detach the temperature. Whenever the temperature reaches 80 degree Celsius the code will cut the current to the heating element. There are also three LEDs controlled by the temperature. Green from range 40 to 60. White from range 60 to 80. Red when above 80.
